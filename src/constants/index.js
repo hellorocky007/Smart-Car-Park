@@ -176,93 +176,92 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Highly recommend Dr. Jay! Professional, attentive, and provides clear explanations.",
+      name: "Mamta",
+      designation: "Chennai",
+      company: "Tamilnadu",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Dr. Patel's understanding of my problem was evident. Their clear guidance and support greatly helped me navigate my health concerns.",
+      name: "Ramu Singh",
+      designation: "Vijayawada",
+      company: "Ap",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Dr. Smith addressed my issue with care and expertise. Their thorough explanation of my condition reassured me immensely",
+      name: "Rema",
+      designation: "Avadi",
+      company: "Chennai",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Heart disease",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Heart disease treatment depends on the cause and type of heart damage. Healthy lifestyle habits — such as eating a low-fat, low-salt diet, getting regular exercise and good sleep, and not smoking — are an important part of treatment.",
       tags: [
         {
-          name: "react",
+          name: "Aoid Smooking",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Low Salt Diet",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Regular Exercise",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.youtube.com/watch?v=8E_NPCZCNdo",
     },
     {
-      name: "Job IT",
+      name: "Fever",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
+        "Take paracetamol or ibuprofen for fever. Stay hydrated with water, avoiding alcohol, tea, and coffee. Sponge skin with lukewarm water and use a fan. Avoid cold baths or showers to prevent trapping heat. Rest, including bed rest, is essential for recovery. These steps aid in reducing fever and promoting healing.",
+        tags: [{
+          name: "Paracetamol",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ibuprofen",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Avoiding Alcohol",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.youtube.com/watch?app=desktop&v=t-ljzFLT00c",
     },
     {
-      name: "Trip Guide",
+      name: "Stomach Pain",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Choose hydrating fluids like water, juice, or warm lemon water with honey, avoiding dehydrating substances like caffeine and alcohol. Opt for nutritious options like chicken soup or warm apple juice for comfort. Rest at home to prevent spreading illness. Maintain warm room temperature and use a cool-mist humidifier for comfort.",
       tags: [
         {
-          name: "nextjs",
+          name: "prioritize water",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "warm lemon water",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "drink juice",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.youtube.com/watch?v=lBPaJIIXO_E",
     },
   ];
   
