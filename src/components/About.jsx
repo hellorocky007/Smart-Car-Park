@@ -1,63 +1,66 @@
-import { useState, useEffect } from 'react';
+import React from "react";
+import { motion } from "framer-motion";
 
-const About = () => {
-  // State for total empty space and total slots
-  const [emptySpace, setEmptySpace] = useState(0);
-  const [totalSlots, setTotalSlots] = useState(0);
+import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
+import { testimonials } from "../constants";
 
-  useEffect(() => {
-    // Fetch parking data from the API endpoint
-    fetch('your-api-endpoint-url')
-      .then(response => response.json())
-      .then(data => {
-        setEmptySpace(data.emptySpace);
-        setTotalSlots(data.totalSlots);
-      })
-      .catch(error => console.error('Error fetching parking data:', error));
-  }, []); // Empty dependency array to ensure the effect runs only once on component mount
+const FeedbackCard = ({
+  index,
+  testimonial,
+  name,
+  designation,
+  company,
+  image,
+}) => (
+  <motion.div
+    variants={fadeIn("", "spring", index * 0.5, 0.75)}
+    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+  >
+    <p className='text-white font-black text-[48px]'>"</p>
 
-  // Sample data for items available in the parking lot
-  const parkingItems = [
-    { id: 1, name: 'Car wash service', description: 'Get your car washed while you shop.' },
-    { id: 2, name: 'Electric vehicle charging station', description: 'Charge your electric vehicle conveniently.' },
-    { id: 3, name: 'Valet parking', description: 'Professional valet service available.' },
-    // Add more items as needed
-  ];
+    <div className='mt-1'>
+      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
 
-  return (
-    <section className="px-4 py-8 md:px-8 lg:px-16 xl:px-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-      <div>
-        <label htmlFor="emptySpace" className="block text-sm font-medium text-gray-700">Total Empty Space:</label>
-        <input
-          type="text"
-          id="emptySpace"
-          value={emptySpace}
-          readOnly
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+      <div className='mt-7 flex justify-between items-center gap-1'>
+        <div className='flex-1 flex flex-col'>
+          <p className='text-white font-medium text-[16px]'>
+            <span className='blue-text-gradient'>@</span> {name}
+          </p>
+          <p className='mt-1 text-secondary text-[12px]'>
+            {designation} {company}
+          </p>
+        </div>
+
+        <img
+          src={image}
+          alt={`feedback_by-${name}`}
+          className='w-10 h-10 rounded-full object-cover'
         />
       </div>
-        {/* <div>
-          <label htmlFor="totalSlots" className="block text-sm font-medium text-gray-700">Total Slots:</label>
-          <input
-            type="text"
-            id="totalSlots"
-            value={totalSlots}
-            readOnly
-            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-          />
-        </div> */}
+    </div>
+  </motion.div>
+);
+
+const Feedbacks = () => {
+  return (
+    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+      <div
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+      >
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>About Team Creator</p>
+          <h2 className={styles.sectionHeadText}>About.</h2>
+        </motion.div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8 mt-8">
-        {parkingItems.map(item => (
-          <div key={item.id} className="bg-dark rounded-lg shadow-md p-4">
-            <h3 className="text-lg font-semibold">{item.name}</h3>
-            <p className="text-sm text-gray-600 mt-2">{item.description}</p>
-          </div>
+      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-5`}>
+        {testimonials.map((testimonial, index) => (
+          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
-export default About;
+export default SectionWrapper(Feedbacks, "");

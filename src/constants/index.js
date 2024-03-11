@@ -31,17 +31,21 @@ import {
   
   const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "work",
+      title: "Location",
     },
     {
-      id: "work",
+      id: "feedbacks",
       title: "Work",
     },
     {
       id: "contact",
       title: "Contact",
     },
+    {
+      id: "feedbacks",
+      title:"About"
+    }
   ];
   
   const services = [
@@ -176,27 +180,43 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Highly recommend Dr. Jay! Professional, attentive, and provides clear explanations.",
-      name: "Mamta",
-      designation: "Chennai",
-      company: "Tamilnadu",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Aspiring MERN stack developer adept at integrating IoT, crafting innovative web apps with seamless functionality and user-centric design.",
+      name: "Jay Bardhan Singh",
+      // designation: "Patna",
+      // company: "Bihar",
+      image: "https://img.freepik.com/premium-photo/web-developer-digital-avatar-generative-ai_934475-9048.jpg",
     },
     {
       testimonial:
-        "Dr. Patel's understanding of my problem was evident. Their clear guidance and support greatly helped me navigate my health concerns.",
-      name: "Ramu Singh",
-      designation: "Vijayawada",
-      company: "Ap",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "A budding Flutter developer delving into IoT integration, crafting user-friendly apps with emerging technology for enhanced connectivity and interactivity.",
+      name: "Shanu Kumar",
+      // designation: "Vijayawada",
+      // company: "Ap",
+      image: "https://img.freepik.com/premium-vector/portrait-young-man-with-beard-hair-style-male-avatar-vector-illustration_266660-423.jpg",
     },
     {
       testimonial:
-        "Dr. Smith addressed my issue with care and expertise. Their thorough explanation of my condition reassured me immensely",
-      name: "Rema",
-      designation: "Avadi",
-      company: "Chennai",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Passionate React developer adept at crafting responsive, interactive web applications with clean code, intuitive UI, and seamless user experiences.",
+      name: "Rajnish Kumar",
+      // designation: "Avadi",
+      // company: "Chennai",
+      image: "https://i.pinimg.com/474x/7e/71/9b/7e719be79d55353a3ce6551d704e43ca.jpg",
+    },
+    {
+      testimonial:
+        "Front-end developer with a knack for research paper analysis, blending technical expertise with critical thinking to innovate user-centric interfaces.",
+      name: "G Sruthi",
+      // designation: "Avadi",
+      // company: "Chennai",
+      image: "https://cdn4.iconfinder.com/data/icons/professions-bzzricon-flat/512/25_Student-512.png",
+    },
+    {
+      testimonial:
+        "Front-end developer with a knack for research paper analysis, blending technical expertise with critical thinking to innovate user-centric interfaces.",
+      name: "Ch V Sriram",
+      // designation: "Avadi",
+      // company: "Chennai",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl46qBByD5DoGD2YtdTO_pgZKHzNSqZJFfMw&s",
     },
   ];
   

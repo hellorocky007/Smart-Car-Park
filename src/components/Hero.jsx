@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   const cursiveStyle = {
@@ -12,7 +11,6 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Welcome to the <span className='text-[#915EFF]' style={cursiveStyle}>Smart Park</span>
@@ -23,7 +21,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* Replace ComputersCanvas with the PNG image */}
+      <img src="car.png" alt="Smart Park" className="absolute w-[800px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mt-[100px]" />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#work'>
