@@ -70,7 +70,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch for Online Consultency.</p>
+        <p className={styles.sectionSubText}>Get in touch fo</p>
         <h5 className={styles.sectionHeadText}>Contact.</h5>
 
         <form
@@ -110,7 +110,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               required
-              placeholder='Tell me your problem for online Consultancy , After that i will send you online link for join the meeting..'
+              placeholder='Paint Your Words Here...'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -125,7 +125,7 @@ const Contact = () => {
          
           
         </form>
-        {/* <div  className="flex flex-row mr-[10px]">
+        <div  className="flex flex-row mr-[10px]">
         <Link to="https://www.linkedin.com/in/jay-bardhan-singh-7304b6288/">
         <button
             type='submit'
@@ -143,7 +143,7 @@ const Contact = () => {
           </button>
       </Link>
         </div>
-         */}
+        
       </motion.div>
 
       <motion.div

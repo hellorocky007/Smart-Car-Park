@@ -202,66 +202,51 @@ import {
   
   const projects = [
     {
-      name: "Heart disease",
+      name: "EV Charging Stations",
       description:
-        "Heart disease treatment depends on the cause and type of heart damage. Healthy lifestyle habits — such as eating a low-fat, low-salt diet, getting regular exercise and good sleep, and not smoking — are an important part of treatment.",
+        " Charge up at our EV stations while you shop or dine. Conveniently located, they offer eco-friendly power for your electric vehicle, ensuring you're always ready to hit the road with confidence and sustainability in mind.",
       tags: [
         {
-          name: "Aoid Smooking",
+          name: "Nearest EV locaion",
           color: "blue-text-gradient",
         },
         {
-          name: "Low Salt Diet",
+          name: "EV location",
           color: "green-text-gradient",
-        },
-        {
-          name: "Regular Exercise",
-          color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://www.youtube.com/watch?v=8E_NPCZCNdo",
+      source_code_link: "https://maps.app.goo.gl/S8KZyKtr7V5ytrZ78",
     },
     {
-      name: "Fever",
+      name: "Restroom Facilities",
       description:
-        "Take paracetamol or ibuprofen for fever. Stay hydrated with water, avoiding alcohol, tea, and coffee. Sponge skin with lukewarm water and use a fan. Avoid cold baths or showers to prevent trapping heat. Rest, including bed rest, is essential for recovery. These steps aid in reducing fever and promoting healing.",
+        "Our clean, accessible restrooms provide a welcome break during your travels. Designed for your comfort, they offer a rejuvenating pit stop to freshen up before continuing your journey, ensuring you stay comfortable and refreshed along the way.",
         tags: [{
-          name: "Paracetamol",
+          name: "nearest restrooms",
           color: "blue-text-gradient",
         },
-        {
-          name: "ibuprofen",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Avoiding Alcohol",
-          color: "pink-text-gradient",
-        },
+        
       ],
       image: jobit,
-      source_code_link: "https://www.youtube.com/watch?app=desktop&v=t-ljzFLT00c",
+      source_code_link: "https://maps.app.goo.gl/jFbbBvkk6TAuAkf39",
     },
     {
-      name: "Stomach Pain",
+      name: "Car Wash & Detailing Services",
       description:
-        "Choose hydrating fluids like water, juice, or warm lemon water with honey, avoiding dehydrating substances like caffeine and alcohol. Opt for nutritious options like chicken soup or warm apple juice for comfort. Rest at home to prevent spreading illness. Maintain warm room temperature and use a cool-mist humidifier for comfort.",
+        "Treat your vehicle to a spa day while you park! Our professional car wash and detailing services ensure your car looks and feels its best. From quick washes to full interior and exterior detailing, we'll leave your ride gleaming and you smiling.",
       tags: [
         {
-          name: "prioritize water",
+          name: "Car Wash",
           color: "blue-text-gradient",
         },
         {
-          name: "warm lemon water",
+          name: "Car Service",
           color: "green-text-gradient",
-        },
-        {
-          name: "drink juice",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://www.youtube.com/watch?v=lBPaJIIXO_E",
+      source_code_link: "https://maps.app.goo.gl/oRyKK1egBzBN6cMP9",
     },
   ];
   

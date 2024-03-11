@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dodge Challenger 1970
+* source:	https://sketchfab.com/3d-models/dodge-challenger-1970-915d29c2e6af4ef8a48a93337835f3c8
+* author:	Artem P (https://sketchfab.com/temp0.crazy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dodge Challenger 1970" (https://sketchfab.com/3d-models/dodge-challenger-1970-915d29c2e6af4ef8a48a93337835f3c8) by Artem P (https://sketchfab.com/temp0.crazy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
