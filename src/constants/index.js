@@ -31,19 +31,15 @@ import {
   
   const navLinks = [
     {
-      id: "work",
+      id: "/",
       title: "Location",
-    },
-    {
-      id: "feedbacks",
-      title: "Work",
     },
     {
       id: "contact",
       title: "Contact",
     },
     {
-      id: "feedbacks",
+      id: "feedback",
       title:"About"
     }
   ];

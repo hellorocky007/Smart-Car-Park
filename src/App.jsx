@@ -12,11 +12,26 @@ function App() {
           
            {/* <Feedbacks /> */}
 
+           <div className="relative z-0">
+           
+           <Hero></Hero> 
+           <StarsCanvas />
+         </div><div className="relative z-0">
+           
+        
+           <Works />
+            
+           <StarsCanvas />
+         </div>
+         <div className="relative z-0">
+           
+            
+             <Contact />
+            
+            <StarsCanvas />
+          </div>
           <div className="relative z-0">
            
-            <Hero></Hero> 
-            <Works />
-             <Contact />
             <About />
             <StarsCanvas />
           </div>
